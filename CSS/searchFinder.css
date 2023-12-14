@@ -1,0 +1,82 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+      padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-width: 80%;
+    background-color: #C3F5EC;
+    height: 100vh;
+    
+
+}
+section.container{
+    /* border: 2px solid yellow; */
+    background-color: #fff;
+    height: 70%;
+    min-width: 30rem;
+    margin: 10em auto;
+    width: 32rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 15px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+section.container::-webkit-scrollbar{
+    display: none;
+}
+.container form{
+width: 100%;
+    border: 2px solid rgb(0, 102, 255);
+    border-radius: 5px;
+padding-left: 15px;
+}
+.container form input{
+    outline: none;
+    border: none;
+    width: 80%;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+.container form input[type="search"]:focus{
+    opacity: 0.6;
+    padding: 0;
+    text-decoration: none;
+    text-align: left;
+    color: black;
+}
+.container form .fas{
+    padding: 0.4em 0.3em;
+    font-size: 1.7rem;
+    /* color: blue; */
+} 
+/* ====================================================================== */
+
+.product{
+    padding: 1.5em .4em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.product img{
+    width: 7rem;
+    height: 7rem;
+    /* IT IS MOST IMP PROPERTY U NEED TO REMEMBER */
+    object-fit: cover;
+    border-radius: 0.5rem;
+
+}
+.product .p-details h2{
+    font-size: 2rem;
+}
+.product .p-details h3{
+    padding: .5em;
+    font-size: 1.5rem;
+}
